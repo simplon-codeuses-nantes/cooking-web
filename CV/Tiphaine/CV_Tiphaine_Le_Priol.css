@@ -1,0 +1,253 @@
+body{
+	background-color: #DDDDDD;
+    color: var(--primary-text-color);
+    line-height: 154%;
+}
+
+#container {
+
+	margin-left: 200px;
+	margin-right: 150px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-left: 20px;
+	text-align: justify;
+	background-color: #FFFFFF;
+	position:absolute; 
+ 	box-shadow: 2px 2px 28px 0px #2b2b2b;
+	background-position: center;
+ 	
+}
+
+
+.colonne1 {
+	float: left;
+	width: 400px;
+	padding-left: 31px;
+	padding-bottom: 5px;
+
+
+}
+.colonne2 {
+	float: right;
+	width: 450px;
+	padding-right: 10px;
+	padding-top: 5px;
+	
+}
+
+.font1{
+	font-family: montserrat;
+    font-size: 16px;
+    color: #444440;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    margin-left: -20px;
+
+}
+
+.font2{
+	font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+
+}
+.font2b{
+	font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	font-weight: bold;
+
+
+}
+
+.font3{
+    font-family:amiko;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: 6px;
+
+}
+
+.font4{
+    font-family:bebas neue, cyrillic;
+    font-weight: bold;
+    color: #000000;
+    font-size: 55px;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+.font5{
+    font-family:bebas neue, cyrillic;
+    font-weight: bold;
+    color: #000000;
+    font-size: 95px;
+}
+
+img {
+  margin-right: 20px;
+}
+	
+.margin1{
+	margin-bottom: 150px;
+}
+
+.margin2{
+	margin-bottom: 20px;
+}	
+
+.margin3{
+	margin-bottom: 150px;
+}
+
+.margin4{
+	margin-bottom: 20px;
+	margin-top: 45px;
+}
+	
+.liste{
+	 list-style-type: '> ';
+	 margin-left: -30px;
+	 margin-top: 2px;
+	 font-family:amiko;
+	font-size: 13px;
+
+}
+
+.liste2{
+	 list-style-type: '>> ';
+	 margin-left: -18px;
+	 margin-top: 2px;
+	 font-family:amiko;
+	font-size: 15px;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(12px, auto);
+  
+  
+}
+
+.one {
+  grid-column: 1 / 2;
+  grid-row: 1 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.two { 
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.three {
+  grid-column: 1 / 2;
+  grid-row: 3 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.four {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.five {
+  grid-column: 1 / 2;
+  grid-row: 5 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.six {
+  grid-column: 2 / 2;
+  grid-row: 1 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.seven { 
+  grid-column: 2 / 2;
+  grid-row: 2 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.eight {
+  grid-column: 2 / 2;
+  grid-row: 3 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.nine {
+  grid-column: 2 / 2;
+  grid-row: 4 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+.ten {
+  grid-column: 2 / 2;
+  grid-row: 5 / 5;
+  font-family:amiko;
+	font-size: 13px;
+	color: #000000;
+	line-height: 0;
+	letter-spacing: 25;
+}
+
+li.lvl1{
+	list-style-image:url("C:/Users/tipha/Downloads/Simplon%20CODEUSES/CNF/CV%20num%C3%A9rique/img/cv%20niveau%201.png");
+	margin-left: 15px;
+}	
+
+li.lvl2{
+	list-style-image:url("C:/Users/tipha/Downloads/Simplon%20CODEUSES/CNF/CV%20num%C3%A9rique/img/cv%20niveau%202.png");
+	margin-left: 15px;
+}
+
+li.lvl2-3{
+	list-style-image:url("C:/Users/tipha/Downloads/Simplon%20CODEUSES/CNF/CV%20num%C3%A9rique/img/cv%20niveau%202-3.png");
+	margin-left: 15px;
+}
+
+li.lvl3{
+	list-style-image:url("C:/Users/tipha/Downloads/Simplon%20CODEUSES/CNF/CV%20num%C3%A9rique/img/cv%20niveau%203.png");
+	margin-left: 15px;
+}
+
+li.lvl3-4{
+	list-style-image:url("C:/Users/tipha/Downloads/Simplon%20CODEUSES/CNF/CV%20num%C3%A9rique/img/cv%20niveau%203-4.png");
+	margin-left: 15px;
+}
