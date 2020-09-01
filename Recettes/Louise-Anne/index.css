@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+
+body {
+	width: 100%; 
+	background-color: #fff8e6;
+	background-image:url(fondgris.png); 
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bloc { 
+	margin: 60px; 
+	display: inline-block;
+	vertical-align: top;
+}
+
+h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 40px;
+	background: -webkit-linear-gradient(270deg, #8e0b60 10%, violet 50%, yellow 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	
+
+}
+
+li{
+	color: #8e0b60;
+	font-weight: bold;
+}
+/*.img { 
+	height: 250px; 
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}*/
+
+
+#gradient {
+  border: solid 30px;
+  border-image: linear-gradient(#8e0b60, violet, yellow) 10;
+  padding: 0px;
+  width: 250px;
+}
+
+
+section {
+	width: 50%;
+}
+
