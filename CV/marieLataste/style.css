@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dddd;
+    font-family: 'Special Elite', cursive;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: inline-flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    height: 200px;
+}
+.identity{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.name{
+    font-weight: bold;
+    list-style-type: none;
+}
+.adress, .adress1, .cptown, .tel, .email{
+    margin-top: 10px;
+    list-style-type: none;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: flex;
+    align-self: center;
+    margin-right: 50px;
+}
+h2{
+    text-align: center;
+}
+container{
+    display: flex;
+    flex-direction: column;
+}
+.one, .two{
+    display: inline-flex;
+    justify-content: space-between;
+    resize: horizontal;   
+}
+.one, .two{
+    float: left;
+}
+/*
+.redimention{
+    resize: both;
+}*/
+.dates{
+    float: left;
+    list-style-type: none;
+    font-weight: bold;
+    display: grid;
+    align-items: flex-start;
+}
+.jours{
+    padding-top: 10px;
+}
+.jours2{
+    padding-top: 8px;
+}
+.jours3{
+    padding-top: 30px;
+}
+.jours4{
+    padding-top: 40px;
+}
+.jours5{
+    padding-bottom: 0;
+}
+.jours6{
+    padding-bottom: 5px;
+}
+.contenu{
+    float: right;
+}
+.content{
+    margin: 10px;
+    list-style-type: none;
+}
+p{
+    font-size: 17px;
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px)
+{
+    header{
+        width: 200%;
+    }
+    .identity{
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, .1),
+                     3px 3px 5px rgba(0, 0, 0, .85);
+    }
+    .one{
+        width: 200%;
+    }
+    .two{
+        width: 200%;
+    }
+    .contenu{
+        box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+                    3px 3px 5px rgba(0, 0, 0, .1);
+    }
+    p{
+        width: 200%;
+    }
+    h2{
+        width: 200%;
+    }
+    span{
+        color: #000;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, .1),
+                       3px 3px 5px rgba(0, 0, 0, .85);
+    }
+}
+@media only screen and (min-width:768px)
+{
+    header{
+        width: 100%;
+    }
+    .one{
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+    h2{
+        width: 100%;
+    } 
+}
