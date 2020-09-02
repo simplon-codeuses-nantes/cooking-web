@@ -1,0 +1,82 @@
+html {align-item:center;}
+body{
+	/*background-color:#FFF120;*/
+	font-family: calibri;
+	color:#17365d;
+	margin-top:20px;
+	margin-right:auto;
+	margin-bottom:50px;
+	margin-left:auto;
+	width:100%;
+	/*color: red;*/
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+#entete
+{
+	background-color:#C4BD97;
+	padding: 0 10px 0 0;
+	/*width: 1000px;*/
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+}
+#entete_droite
+{
+	text-align: right;
+}
+img
+{
+	height :200px;
+}
+h1
+{
+	/*background-color: lightgrey;*/
+	margin:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-weight:bold;
+	font-size:200%;
+	
+}
+h2
+{
+	/*background-color: lightgrey;*/
+	margin:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-weight:bold;
+	font-size:180%;
+	
+}
+h4
+{
+	/*background-color: lightgrey;*/
+	margin:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size:120%;
+	font-weight: lighter;
+	
+}
+#gauche
+{
+	text-align: right;
+}
+ul.contenu_gauche
+{
+list-style:none;
+margin-left:0;
+padding-left:0;
+font-weight:bold;
+margin-top:0;
+margin-bottom:10;
+}
+h3
+{
+	/*background-color: lightgrey;*/
+	/*margin:10px;*/
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size:120%;
+	font-weight: lighter;
+	
+}
