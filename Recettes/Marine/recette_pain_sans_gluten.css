@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Roboto&display=swap');
+
+* {  box-sizing: border-box;}
+
+h1,h3{
+	font-family: 'Londrina Solid', cursive;
+	color: #4E6A63;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	background-color: #E0A3BC;
+	color: #344642;
+	text-align: justify-all;
+}
+
+h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+ul {
+	margin:10;
+    padding:10;
+    list-style-type: "* ";
+    line-height: 20px;
+}
+
+ol {
+	margin:10;
+    padding:10;
+  	line-height: 20px;
+}
+
+
+
+header{
+	display: flex;
+}
+
+.intro{
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+}
+
+img{
+	width: 60%;
+	display: flex;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.ingredients{
+	position: relative;
+	width: 30%;
+	float: left;
+	height: 100%;
+	text-align: left;
+    line-height: 20px;
+    padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	border-color: #344642;
+	border-style: solid;
+	border-width: 5px;
+	padding: 20px;
+	position: relative;
+}
+
+article{
+	position: relative;
+	width: 30%;
+	float: left;
+	height: 100%;
+	text-align: left;
+    line-height: 20px;
+    padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	padding: 20px;
+	position: relative;
+}
