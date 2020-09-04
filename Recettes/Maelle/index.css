@@ -1,0 +1,59 @@
+html{
+	min-height: 100%;
+	width: auto;
+}
+
+body{
+	min-height:100%;
+	display: flex;
+	justify-content: center;
+	background-image: url("fond.jpg");
+}
+
+#wrap{
+	width: 70%;
+	background-color: #e2e2e2;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+
+#titres{
+	text-align: center;
+	font-family: "Lucida Sans Unicode";
+	color: #7e2323;
+}
+
+#premier{
+	display: flex;
+	justify-content: center;
+}
+
+#ingrédients{
+	padding-left: 30px;
+	font-family: "barlow condensed";
+}
+
+h2{
+	font-family: "Lucida Sans Unicode";
+	color: #71995f;
+}
+
+#premier img{
+	width: 40%;
+	margin: 0;
+}
+
+#déroulé h2{
+	margin: 0;
+}
+
+#déroulé{
+	font-family: "barlow condensed";
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin:0;
+}
