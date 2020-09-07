@@ -1,0 +1,226 @@
+html{
+	min-height: 100%;
+	width: auto;
+}
+
+body{
+	min-height:100;
+	display: inline-flex;
+}
+
+#sidebar{
+	background-color: #25555B;
+	width: 40%;
+	margin-left: 40px;
+	padding-bottom: 10px;
+}
+
+.photo img{
+	width: 100%;
+}
+
+#name h1{
+	color: #DBA620;
+	font-size: 60px;
+	font-family: "bebas neue";
+	text-align: center;
+	margin: 0;
+}
+
+#titre h2{
+	color: white;
+	font-family: "barlow condensed";
+	font-size: 30px;
+	text-align: center;
+	margin:0;
+}
+#recherche h2{
+	color: #DBA620;
+	font-family: "bebas neue";
+	font-size: 30px;
+	text-align: center;
+	margin:0;
+}
+
+.titles h2{
+	color: #DBA620;
+	font-family: "bebas neue";
+	font-size: 30px;
+	margin-top: 40px;
+	padding-left: 35px;
+}
+
+#descrpr p{
+	color: white;
+	font-family: "barlow condensed";
+	font-size: 23px;
+	margin:0;
+	padding-left: 45px;
+
+}
+
+#cloud{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#bottom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#cloud p{
+	text-align: center;
+	color: #DBA620;
+	font-family: "barlow condensed";
+	font-size: 26px;
+	margin:0;
+	padding-left: 20px;
+}
+
+.box{
+	display: flex;
+	flex-basis: auto;
+	flex-flow: row;
+}
+
+.corpside p{
+	color: white;
+	font-family: "barlow condensed";
+	font-size: 23px;
+	margin:0;
+}
+
+.corpside a{
+	color: white;
+}
+
+.box img{
+	width: 25%;
+	margin: 0;
+	padding-left: 45px;
+}
+
+#langues {
+	color: white;
+	font-family: "barlow condensed";
+	font-size: 23px;
+	margin:0;
+}
+
+#langues img{
+	width: 15%;
+}
+
+.idiome{
+	display: flex;
+	flex-basis: auto;
+	flex-flow: row;
+	justify-content: space-around;
+}
+
+#main{
+	width: 70%;
+	margin-right: 40px;
+}
+
+.titresM h2{
+	color: white;
+	font-family: "bebas neue";
+	font-size: 55px;
+	margin: 0;
+	margin-top: 15px;
+	margin-left: 100px;
+	padding-right: 130px;
+	padding-left: 30px;
+	background-color: #25555B;
+}
+
+#dev{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-around;
+*/}
+
+#dev p{
+	color: #25555B;
+	font-family: "barlow condensed";
+	font-size: 30px;
+	margin:0;
+	margin-left: 103px;
+}
+
+#picto{
+	margin-left: 78px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#picto img{
+	width: 20%;
+}
+
+.soustitres h3{
+	color: #25555B;
+	font-family: "bebas neue";
+	font-size: 30px;
+	margin:0;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+.lieudate p{
+	color: #25555B;
+	font-family: "barlow condensed";
+	font-size: 20px;
+	margin:0;
+	margin-left: 100px;
+}
+
+.descriptif p{
+	color: black;
+	font-family: "barlow condensed";
+	font-size: 23px;
+	margin:0;
+	margin-left: 100px;
+}
+
+#compétences{
+	margin-left: 100px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#compétences img{
+	width: 11%;
+}
+
+#compétences p{
+	color: #25555B;
+	font-family: "barlow condensed";
+	font-size: 23px;
+	margin:auto;
+}
+
+#footer{
+	background-color:#25555B;
+	padding-bottom: 1px;
+	padding-left: 40px;
+	padding-bottom: 13px;
+}
+
+#loisirs{
+	display: flex;
+	justify-content: space-around;
+}
+
+#loisirs p{
+	color: white;
+	font-family: "barlow condensed";
+	font-size: 23px;
+	margin:auto;
+}

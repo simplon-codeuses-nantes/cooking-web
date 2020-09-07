@@ -1,0 +1,70 @@
+
+
+
+.colonne1
+{
+	width:35%;
+	display: block;
+	float:left;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.colonne2
+{
+	width:55%;
+	display: block;
+	float:right;
+	background-color: white;
+	border:3px #f3e1f5 solid;
+	border-radius: 10px;
+	padding: 1px;
+	font-size: 18px;
+}
+
+
+.contact
+{
+	background-color: white;
+	text-align: left;
+	padding:30px;
+	border:3px #f3e1f5 solid;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	 
+}
+
+.profil
+
+{
+	background-color: white;
+	padding:30px;
+	border: 3px #f3e1f5 solid;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	text-align: justify; 
+}
+h1
+{
+	background-color: #f3e1f5;
+    font-size: 25px;
+    text-align: center;
+    border: 10px #f3e1f5 solid; 
+    border-radius: 10px;
+    padding: 30px;	
+}
+h2
+{
+	color: #f4c6f7;
+}
+.competences
+{
+	border: 3px #f3e1f5 solid;
+	border-radius: 20px;
+	padding: 35px;
+	margin-bottom: 5px;
+}
+img
+{
+	width:20px;
+}

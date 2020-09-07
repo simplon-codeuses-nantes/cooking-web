@@ -1,0 +1,23 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+h1{
+	text-align: center;
+}
+
+.linkedin {
+	height: 15px;
+}
+
+#grille{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+  	grid-column-gap: 100px;
+  	grid-row-gap: 70px;
+  	grid-auto-rows: minmax(12px, auto);
+	
