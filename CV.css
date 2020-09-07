@@ -1,5 +1,5 @@
 body{
-	align-content: center;
+
 }
 
 .linkedin {
@@ -7,15 +7,13 @@ body{
 }
 
 section{
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: center;
+	display: grid;
+	
 }
 
 .bloc_ligne{
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+  	grid-gap: 10px;
+  	grid-auto-rows: minmax(12px, auto);}
 }
