@@ -1,19 +1,23 @@
 body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
 
+h1{
+	text-align: center;
 }
 
 .linkedin {
 	height: 15px;
 }
 
-section{
-	display: grid;
-	
-}
-
-.bloc_ligne{
+#grille{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-  	grid-gap: 10px;
-  	grid-auto-rows: minmax(12px, auto);}
-}
+  	grid-column-gap: 100px;
+  	grid-row-gap: 70px;
+  	grid-auto-rows: minmax(12px, auto);
+	
