@@ -1,3 +1,17 @@
 .linkedin {
 	height: 15px;
 }
+
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.bloc_ligne{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
