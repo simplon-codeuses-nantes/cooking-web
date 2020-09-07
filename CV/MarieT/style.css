@@ -14,28 +14,36 @@ body{
 	align-items: center;
 }
 
-a:link {
+a:link
+{
   color: white;
   text-decoration: none;
 }
 
 
-a:visited {
+a:visited
+{
   color: #17365d;
   text-decoration: none;
 }
 
 
-a:hover {
+a:hover
+{
   color: #17365d;
   text-decoration: none;
 }
 
 
-a:active {
+a:active
+{
   color: #17365d;
   text-decoration: none;
 } 
+#CV
+{
+	max-width: 800px;
+}
 #entete
 {
 	
@@ -88,7 +96,7 @@ a:active {
 	/*border-color: #C4BD97;*/
 	border-color: #CCCCCC;
 	text-align: left;
-	max-width:600px;
+	max-width:500px;
 }
 img
 {
