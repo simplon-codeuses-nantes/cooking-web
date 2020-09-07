@@ -1,0 +1,26 @@
+body
+{
+	background-color: #D28F2E;
+}
+
+h1 {color:#862820}
+h1 {font-family: "merriweather;
+	Text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+h2 { color: #862820 }
+
+h3 { color: #862820 }
+
+p
+{
+	font-family:"merriweather"; 
+	font-weight:bold;
+	font-size:20px;
+	text-align: center;
+}

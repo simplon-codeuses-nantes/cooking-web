@@ -1,0 +1,249 @@
+html {align-item:center;}
+body{
+	
+	font-family: calibri;
+	color:#17365d;
+	margin-top:20px;
+	margin-right:auto;
+	margin-bottom:50px;
+	margin-left:auto;
+	width:100%;
+	
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+a:link
+{
+  color: white;
+  text-decoration: none;
+}
+
+
+a:visited
+{
+  color: #17365d;
+  text-decoration: none;
+}
+
+
+a:hover
+{
+  color: #17365d;
+  text-decoration: none;
+}
+
+
+a:active
+{
+  color: #17365d;
+  text-decoration: none;
+} 
+#CV
+{
+	max-width: 800px;
+}
+#entete
+{
+	
+
+	background-color:#CCCCCC;
+	padding: 0 10px 0 0;
+	
+	height:200px;
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items: center;
+}
+#entete_gauche
+{
+	align-self: stretch;
+}
+#entete_droite
+{
+	text-align: right;
+	
+}
+#barre_horizontale
+{
+	height: 30px
+}
+#corps_CV
+{
+	
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	
+}
+#gauche
+{
+	padding : 0px 10px 10px 10px;
+	text-align: right;
+	width:200px;
+}
+#droite
+{
+	padding : 0px 10px 10px 10px;
+	border-style: solid;
+	border-width: 0 0 0 5px;
+	
+	border-color: #CCCCCC;
+	text-align: left;
+	max-width:500px;
+}
+img
+{
+	height :200px;
+}
+h1
+{
+	
+	margin:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-weight:bold;
+	font-size:200%;
+	
+}
+h2
+{
+	
+	margin:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-weight:bold;
+	font-size:180%;
+	
+}
+h3
+{
+	
+	margin: 0px 0 10px 0;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size:120%;
+	font-weight: bolder;
+	
+}
+h4
+{
+	
+	margin:10px;
+	font-family: 'Carrois Gothic', sans-serif;
+	font-size:120%;
+	font-weight: lighter;
+}
+h5
+{
+	
+	margin: 0 10px 0 0;
+	font-size:120%;
+	font-weight: bolder;
+}
+h6
+{
+	
+	margin:0px;
+	font-family: calibri, sans-serif;
+	font-size:100%;
+	font-weight: lighter;
+	
+}
+h5.titre_formation
+{
+	font-weight: bolder;
+	/
+}
+.lieu_formation
+{
+	margin: 0;
+	font-size:100%;
+	font-weight: bolder;
+	
+}
+.lieu_experience
+{
+	margin: 0;
+	font-size:100%;
+	font-weight: bolder;
+	
+}
+.date_experience
+{
+	margin: 0;
+	font-size:100%;
+	/*font-weight: bolder;*/
+	
+}
+.niveau
+{
+	margin-bottom: 15px;
+}
+p
+{
+	margin:0;
+	
+}
+p.contenu_formation
+{
+	
+
+}
+
+li
+{
+	margin: 0;
+}
+ul.contenu_gauche
+{
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+ul.sous-contenu_gauche
+{
+	list-style:none;
+	margin-left:0;
+	padding-left:0;
+	margin-top:0;
+	margin-bottom:0;
+	
+}
+ul.contenu_experience
+{
+	list-style-type: '-';
+	margin:0;
+	padding-left:20;
+	
+
+}
+.contenu_gauche
+{
+	font-weight:bold;
+	padding: 0;
+}
+.sous-contenu_gauche
+{
+	font-weight:lighter;
+	padding: 0 0 15px 0;
+}
+
+.espace_haut
+{
+	height: 10px;
+	
+}
+.espace_haut_rubrique
+{
+	height: 35px;
+	
+}
+.espace_contenu
+{
+	height: 15px;
+	
+}

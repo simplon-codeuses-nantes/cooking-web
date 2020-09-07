@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html
+{
+  height: 100%;
+}
+
+body
+{	font-family: 'Lato', sans-serif;
+  	margin-left: 50px;
+}
+
+div#colonne1
+{
+	float: left;
+}
+
+
+/* Colonne de gauche : informations perso + Compétences; */
+
+div#colonne2
+{
+	float: right;
+	width: 400px;
+	height: 1600px;
+	margin-right: 20px;
+	margin-left : 20px;
+	background: #e86c00;
+	color: #eeeeee;
+	font-size: 90%;
+}
+
+
+div#photo
+{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.texte
+{
+	margin-left: 20px;
+	margin-right: 100px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+
+}
+
+#CP
+{
+	margin-left: 20px;
+}
+
+h3.h3cl2
+{
+	color: #aaaaaa;
+	margin-left: 20px;
+	margin-right: 100px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+div.comp
+{
+	color : white;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+label
+{
+    padding-right: 10px;
+    font-size: 1rem;
+ } 
+
+
+progress[value]
+{
+	width: 250px;
+	height: 5px;
+	background: red;
+}
+
+progress::-webkit-progress-value
+{
+   	background: orange;
+}
+
+::-webkit-progress-bar
+{
+   background-color: #BA4A00;
+}
+
+
+/* Colonne centrale : Présentation professionnelle */
+
+h2
+{
+	color: black;
+	font-size: 150%;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+div#centre
+{
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+h3.titre
+{
+	color: #cf8e02;	
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.mission
+{
+	font-weight: bold;
+	color : black;
+	margin-top: 15px;
+	margin-bottom : 0px;
+
+}
+
+.entreprise
+{
+	margin-top: 0px;
+	margin-bottom : 0px;
+	color: #b35706;
+}
+
+.ville
+{
+	margin-top: 0px;
+	margin-bottom : 0px;
+	color : #444444;
+}
+
+ul
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+li
+{
+    list-style-type: square;
+    color :grey;
+	font-size: 90%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
