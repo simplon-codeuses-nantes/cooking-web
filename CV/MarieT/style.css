@@ -50,8 +50,7 @@ a:active
 
 	background-color:#CCCCCC;
 	padding: 0 10px 0 0;
-	/*margin: 0;*/
-	/*width: 1000px;*/
+	
 	height:200px;
 	display:flex;
 	flex-direction:row;
@@ -73,14 +72,12 @@ a:active
 }
 #corps_CV
 {
-	/*background-color: grey;*/
+	
 	display:flex;
 	flex-direction:row;
 	flex-wrap: wrap;
 	align-items: flex-start;
-	/*justify-content:space-between;*/
-	/*padding: 0 10px 0 10px;*/
-	/*max-width:720px;*/
+	
 }
 #gauche
 {
@@ -93,7 +90,7 @@ a:active
 	padding : 0px 10px 10px 10px;
 	border-style: solid;
 	border-width: 0 0 0 5px;
-	/*border-color: #C4BD97;*/
+	
 	border-color: #CCCCCC;
 	text-align: left;
 	max-width:500px;
@@ -104,7 +101,7 @@ img
 }
 h1
 {
-	/*background-color: lightgrey;*/
+	
 	margin:10px;
 	font-family: 'Carrois Gothic', sans-serif;
 	font-weight:bold;
@@ -113,7 +110,7 @@ h1
 }
 h2
 {
-	/*background-color: lightgrey;*/
+	
 	margin:10px;
 	font-family: 'Carrois Gothic', sans-serif;
 	font-weight:bold;
@@ -122,7 +119,7 @@ h2
 }
 h3
 {
-	/*background-color: lightgrey;*/
+	
 	margin: 0px 0 10px 0;
 	font-family: 'Carrois Gothic', sans-serif;
 	font-size:120%;
@@ -131,7 +128,7 @@ h3
 }
 h4
 {
-	/*background-color: lightgrey;*/
+	
 	margin:10px;
 	font-family: 'Carrois Gothic', sans-serif;
 	font-size:120%;
@@ -139,14 +136,14 @@ h4
 }
 h5
 {
-	/*background-color: lightgrey;*/
+	
 	margin: 0 10px 0 0;
 	font-size:120%;
 	font-weight: bolder;
 }
 h6
 {
-	/*background-color: lightgrey;*/
+	
 	margin:0px;
 	font-family: calibri, sans-serif;
 	font-size:100%;
@@ -156,27 +153,28 @@ h6
 h5.titre_formation
 {
 	font-weight: bolder;
-	/*background-color: pink;*/
+	/
 }
 .lieu_formation
 {
 	margin: 0;
 	font-size:100%;
 	font-weight: bolder;
-	/*color:#CCBB99;*/
-	/*color:#AAAAAA;*/
-	/*color:#555555;*/
-	/*color:#777777;*/
+	
 }
 .lieu_experience
 {
 	margin: 0;
 	font-size:100%;
 	font-weight: bolder;
-	/*color:#CCBB99;*/
-	/*color:#AAAAAA;*/
-	/*color:#555555;*/
-	/*color:#777777;*/
+	
+}
+.date_experience
+{
+	margin: 0;
+	font-size:100%;
+	/*font-weight: bolder;*/
+	
 }
 .niveau
 {
@@ -185,14 +183,11 @@ h5.titre_formation
 p
 {
 	margin:0;
-	/*background-color: red;*/
+	
 }
 p.contenu_formation
 {
-	/*color:#AAAAAA;*/
-	/*color:#555555;*/
-	/*color:#CCBB99;*/
-	/*background-color: pink;*/
+	
 
 }
 
@@ -207,7 +202,7 @@ ul.contenu_gauche
 	padding-left:0;
 	margin-top:0;
 	margin-bottom:0;
-	/*background-color: green;*/
+	
 }
 ul.sous-contenu_gauche
 {
@@ -216,7 +211,7 @@ ul.sous-contenu_gauche
 	padding-left:0;
 	margin-top:0;
 	margin-bottom:0;
-	/*background-color: green;*/
+	
 }
 ul.contenu_experience
 {
@@ -240,15 +235,15 @@ ul.contenu_experience
 .espace_haut
 {
 	height: 10px;
-	/*background-color: orange;*/
+	
 }
 .espace_haut_rubrique
 {
 	height: 35px;
-	/*background-color: blue;*/
+	
 }
 .espace_contenu
 {
 	height: 15px;
-	/*background-color: grey;*/
+	
 }
