@@ -20,4 +20,7 @@ h1{
   	grid-column-gap: 100px;
   	grid-row-gap: 70px;
   	grid-auto-rows: minmax(12px, auto);
+
+ }
+
 	
