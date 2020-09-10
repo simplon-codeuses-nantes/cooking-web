@@ -1,0 +1,25 @@
+
+.body
+{
+background-color: blue;
+display: flex;
+}
+
+.h1
+{
+	color : blue;
+	background-position : center;
+	font-size : large;
+	font-weight: bold;
+}
+
+.h2
+{
+	background-color: red;
+	font-size: 25px;
+}
+.h3
+{
+	background-color : black;
+	background-position: left;
+}
