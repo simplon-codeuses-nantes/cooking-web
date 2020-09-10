@@ -1,24 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Roboto&display=swap');
 
-* {  box-sizing: border-box;}
-
-h1,h3{
-	font-family: 'Londrina Solid', cursive;
-	color: #4E6A63;
-}
-
 body{
+	background: #E4E4E4;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
-	background-color: #E0A3BC;
-	color: #344642;
+	color: #8b8e94;
 	text-align: justify-all;
 }
 
-h1{
-	font-size: 80px;
-	text-align: center;
+main{
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+	float: left;
+	align-content: space-around;
+	height: 100%;
+	padding: 10px 10px 10px 10px;
+	margin: 30px 10px 10px 10px;
+}
+
+h1,h3 {
+  color: #000000;
+  line-height: 1.5;
+  font-family: 'Londrina Solid', cursive;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+h3 {
+  font-size: 28px;
 }
 
 ul {
@@ -34,51 +48,52 @@ ol {
   	line-height: 20px;
 }
 
-
-
+/*titre, intro, photo*/
 header{
 	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: space-between;
+	align-content: space-between;
 }
 
 .intro{
 	font-weight: bold;
 	text-align: center;
 	line-height: 30px;
-	position: relative;
 }
-
-img{
-	width: 60%;
-	display: flex;
+/*image pain header*/
+.pain1{
+	width: 40%;
 	margin-right: auto;
 	margin-left:auto;
 }
 
-.ingredients{
+/*durée + ingrédients*/
+aside{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: space-between;
 	position: relative;
 	width: 30%;
-	float: left;
 	height: 100%;
 	text-align: left;
+	background-color: #E0A3BC;
     line-height: 20px;
-    padding: 10px 10px 10px 10px;
-	margin: 10px 10px 10px 10px;
-	border-color: #344642;
-	border-style: solid;
-	border-width: 5px;
-	padding: 20px;
-	position: relative;
+    padding: 20px;
+	margin: 20px;
+
+}
+/*image pain aside*/
+.pain2{
+	width: 100%;
 }
 
-article{
-	position: relative;
-	width: 30%;
-	float: left;
-	height: 100%;
-	text-align: left;
-    line-height: 20px;
-    padding: 10px 10px 10px 10px;
-	margin: 10px 10px 10px 10px;
-	padding: 20px;
-	position: relative;
+}
+/*étapes + remarques*/
+.article{
+	 background-color: #E0A3BC;
 }
