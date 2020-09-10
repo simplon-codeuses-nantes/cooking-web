@@ -1,0 +1,154 @@
+html { 
+	height: 3508px; 
+	margin:0;
+	width: 2480px;
+}
+
+body {
+	height: 100%;
+	font-family: "arial",serif;
+	margin:0;
+    background: #F0F3F5; 
+}
+
+.coordonnees{
+	font-weight: bold;
+	margin-bottom: 0px;
+
+}
+
+.test{
+	margin-bottom: 0px;
+	margin-top: 0px;
+
+}
+
+.titre-experience {
+	margin:0px;
+
+}
+
+
+hr{
+	width: 1000px;
+
+}
+
+.text-introduction {
+	margin-right: 500px;
+	width: 500px;
+	top:10px;
+
+
+}
+.titre {
+	width:50%;
+	margin-left: 21%;
+	height:200px;
+	justify-content:left;
+	display:inline-flex
+}	
+#introduction {
+	max-height: 100%;
+	top:10px;
+	width: 2000px;
+	margin-left:0%;
+}
+
+.bloc {
+	display: inline-block;
+
+	
+}
+.bloc1 {
+	display: inline-block;
+	top:10px;
+	float right: 10px;
+	position: absolute;
+	
+}
+
+h1 {
+	width: 500px;
+	margin-right: 75px;
+	top:10px;
+}
+.titre_souligner {
+
+	border-bottom: 1px solid white;
+	border-bottom-style: inset;
+	width: 400px;
+	margin left: 50px;
+}
+
+.titre-camieg {
+	margin-left:0px;
+	margin-top: 16px;
+	margin-right:0px;
+	margin-bottom:0px;
+}
+
+.decaler{
+	text-indent: 30px;
+}
+
+
+#colonne1{
+	position:absolute;
+	height: 1800px;
+	top: 10px;
+	width: 450px; 
+	background: #4B5D67; 
+	color: white;
+	margin-left:5px;
+	padding-left: 30px;
+	
+	}
+
+.Expérience{
+	width:10%;
+	height:200px;
+
+
+}
+
+#infocamieg {
+	width:10%;
+	height:200px;
+
+}
+
+
+.bloccamieg {
+	width:50%;
+	margin-left: 21%;
+	height:200px;
+	justify-content:left;
+	display:inline-flex;
+}	
+
+.bloccamieg2{
+	height: 200px;
+	width:70%;
+	
+}	
+
+#infocamieg {
+	width:25%;
+	height:200px;
+	
+
+	}	
+
+.blocwestotel{
+	height: 200px;
+	margin: 0px;
+	width: 65%;
+	
+
+}	
+#infocamieg {
+	width:25%;
+	height:200px;
+	}
+
