@@ -1,0 +1,21 @@
+html {  }
+
+body {  }
+
+h1 { color: red; }
+
+h2 { font-size: 28px; color: #3388BB; border-bottom: 3px; }
+
+section { text-align: left; margin-left: 290px; }
+
+p { text-align: left; line-height: 25px;}
+
+img { height: 170px; margin-left: 200px;}
+
+header { text-align: center; } 
+		.bloc { display: inline-block; }
+		#info { margin-right: 100px; }
+		#titre { margin-left: 100px; }
+		
+				   
+ 	
