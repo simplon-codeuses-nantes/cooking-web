@@ -131,6 +131,7 @@ h1{
 .cv_photo > a > img:hover {
 	animation: smooth 1s;
 	animation-fill-mode: forwards
+
 } /*animation photos*/
 
 .cv_nom{
@@ -244,7 +245,9 @@ footer .text{
 @-webkit-keyframes smooth {
 from {
     -webkit-transform: scale(1.0);
+    box-shadow: 0 0 11px rgba(33,33,33,.9); 
 }
 to {
     -webkit-transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.9); 
 } keyframes /*animation photo*/
