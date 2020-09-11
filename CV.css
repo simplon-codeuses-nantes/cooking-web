@@ -30,8 +30,11 @@ body{
     padding: 0;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 header{
@@ -113,14 +116,6 @@ nav img{
 }
 /*fin menu déroulant*/
 
-body{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	
-}
-
 h1{
 	text-align: center;
 }
@@ -134,13 +129,23 @@ h1{
 	border-color: #ce0033;
 }
 
-/*.cv_photo > a > img:hover {
+.cv_photo > a > img:hover {
 	animation: smooth 1s;
 	animation-fill-mode: forwards
-} animation photos*/
+} /*animation photos*/
+
+.cv_nom{
+	text-align: center;
+	font-weight: bold;
+	font-family: Roboto;
+}
 
 .linkedin {
 	height: 15px;
+}
+
+.cv_linkedin {
+	text-align:  center;
 }
 
 #grille{
@@ -208,10 +213,10 @@ footer .text{
 }
 /*fin footer*/
 
-/*@-webkit-keyframes smooth {
+@-webkit-keyframes smooth {
 from {
     -webkit-transform: scale(1.0);
 }
 to {
     -webkit-transform: scale(1.1);
-} keyframes animation photo*/
+} keyframes /*animation photo*/
