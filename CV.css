@@ -70,6 +70,7 @@ nav img{
 .dropdown a:hover{
     color: #ffd700;
 }
+/*fin menu déroulant*/
 
 body{
 	display: flex;
@@ -96,7 +97,18 @@ h1{
 
  }
 
-	
+/*bloc footer et info*/
+.text{
+    text-align: center;
+    border: 2px solid #000000;
+    background: #dcdcdc;
+    font-family: Verdana;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*footer*/
 footer{
     display: flex;
     flex-direction: row;
@@ -105,7 +117,9 @@ footer{
 }
 footer .text{
     flex: 1;
+    
 }
+
 #sitemap{
     flex: 1;
     display: flex;
@@ -132,3 +146,4 @@ footer .text{
 #sitemap a:hover{
     color: #f6250d;
 }
+/*fin footer*/
