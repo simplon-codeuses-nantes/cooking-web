@@ -1,0 +1,63 @@
+.page{
+	width: 780px;
+	margin: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+.information{
+	height: 250px;
+}
+.info{
+	float: left;
+}
+.naissance{
+	float: right;
+}
+.section{
+	margin-bottom: 70px;
+	text-align: justify ; 
+}
+.sec-left{
+	float: left;
+	font-weight: bold;
+	font-size: 15px;
+}
+.sec-right{
+	margin-left: 130px;
+	margin-top: 30px; 
+}
+.développeur{
+	text-align: center;
+}
+h4{
+	font-size: 16px;
+	color: #6F3599;
+	border-bottom: 5px solid #6F3599;
+}
+.titre{
+	font-weight: bold;
+	font-size: 15px
+}
+#sec-gauche p{
+	margin-bottom: 56px;
+}
+#sec-droite p{
+	margin-top: 18px;
+}
+#jour p{ 
+	margin-top: 17px;
+}
+li: list-child {
+ 	list-style-type: disc;
+}
+
+#date{
+	margin-top: 16px
+}
+#date-une{
+	margin-top: -5px;
+}
+#date-deux{
+	margin-top: 15px;
+}
+
