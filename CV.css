@@ -120,6 +120,14 @@ h1{
 	text-align: center;
 }
 
+.cv_photo > a > img{
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border: solid;
+	border-width: 3px;
+	border-color: #f6250d;
+}
 .linkedin {
 	height: 15px;
 }
