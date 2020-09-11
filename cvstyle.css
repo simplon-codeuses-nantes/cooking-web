@@ -119,6 +119,12 @@ h1{
 	text-align: center;
 }
 
+h3{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
 .cv_photo > a > img{
 	width: 180px;
 	height: 180px;
