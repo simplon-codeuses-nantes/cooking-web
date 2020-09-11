@@ -1,14 +1,27 @@
 body
 {
 	width: 100%;
-	background-color: #fff8e6;
+	background-color: #fff8e6;color:#444444;
 	font-family: sans-serif;
+
+}
+
+#lienimage
+{
+	color:#444444;
+	font-size: 80%;
 }
 
 .bloc
 {
 	margin: 70px;
 	display: inline-block;
+}
+
+a:link
+{
+  color: #444444;
+  text-decoration: none;
 }
 
 img
@@ -19,7 +32,8 @@ img
 	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-section 
+section
 {
 	width: 50%;
 }
+
