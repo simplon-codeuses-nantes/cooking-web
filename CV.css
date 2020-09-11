@@ -43,12 +43,17 @@ header{
     flex-direction: column;
     border-bottom: 2px solid #000000;
 }
+
+section{
+	margin-bottom: 20px;
+}
+
 nav{
     width: 100%;
     height: 90px;
     display: inline-block;
     justify-content: space-around;
-    background-color: #f6250d;
+    background-color: #ce0033;
 }
 nav img{
     float: left;
@@ -63,7 +68,7 @@ nav img{
 .boutonmenuprincipal {
     color: white;
     border: none;
-    background-color: #f6250d;
+    background-color: #ce0033;
     cursor: pointer;
     margin: 10px;
     font-size: 30px;
@@ -72,7 +77,7 @@ nav img{
 
 }
 .boutonmenuprincipal:hover {
-    background-color: #f6250d;
+    background-color: #ce0033;
 }
 .dropdown {
     margin: 10px;
@@ -81,14 +86,14 @@ nav img{
     flex-direction: column;
     justify-content: center;
     width: 33%;
-    background-color: #f6250d;
+    background-color: #ce0033;
     border: 2px solid white;
     border-radius: 50px;
     margin-left: 33%;
 }
 .dropdown-child {
     display: none;
-    background-color: #f6250d;
+    background-color: #ce0033;
     min-width: 50px;
 }
 .dropdown-child a {
@@ -126,8 +131,14 @@ h1{
 	border-radius: 50%;
 	border: solid;
 	border-width: 3px;
-	border-color: #f6250d;
+	border-color: #ce0033;
 }
+
+/*.cv_photo > a > img:hover {
+	animation: smooth 1s;
+	animation-fill-mode: forwards
+} animation photos*/
+
 .linkedin {
 	height: 15px;
 }
@@ -193,6 +204,14 @@ footer .text{
 }
 
 #sitemap a:hover{
-    color: #f6250d;
+    color: #ce0033;
 }
 /*fin footer*/
+
+/*@-webkit-keyframes smooth {
+from {
+    -webkit-transform: scale(1.0);
+}
+to {
+    -webkit-transform: scale(1.1);
+} keyframes animation photo*/
