@@ -1,9 +1,0 @@
-body {width: 100%; background-color: #F6D980; font-family: 'Raleway';
-}
-p{font-weight: bold
-}
-.bloc { margin: 70px; display: inline-block;}
-img { height: 300px; -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
- -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-section {width: 50%;}
