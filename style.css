@@ -70,29 +70,31 @@ h2{
 /*menu déroulant*/
 .boutonmenuprincipal {
     color: white;
+    font-size: 25px;
     border: none;
     background-color: #ce0033;
     cursor: pointer;
-    margin: 10px;
-    font-size: 30px;
-    border-radius: 50px;
+    /*margin: 10px;
+    border-radius: 50px;*/
 }
 
 .boutonmenuprincipal:hover {
-    background-color: #ce0033;
+    color: orange;
 }
 
 .dropdown {
-    margin: 10px;
-    position: relative;
+    margin-right: 20px;
+    float: right;
+    /*position: relative;*/
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 33%;
+    justify-content: right;
+    max-width: 500px;
+    min-width: 200px;
     background-color: #ce0033;
     border: 2px solid white;
-    border-radius: 50px;
-    margin-left: 33%;
+    /*border-radius: 50px;
+    margin-left: 33%;*/
 }
 
 .dropdown-child {
@@ -112,7 +114,7 @@ h2{
 
 .dropdown:hover .dropdown-child {
     display: block;
-    border-radius: 50px;
+    /*border-radius: 50px;*/
 }
 
 .dropdown a:hover{
