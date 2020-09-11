@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@media (max-width: 576px) { 
+  body{
+    max-width: 100%;
+  } 
+}
+
+@media (max-width: 768px) { 
+   body{
+    max-width: 750px;
+   }
+}
+
+@media (max-width: 992px) {
+   body{
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 1200px) {
+   body{
+    max-width: 800px;
+  }
+}
+
 body{
     min-height: 100%;
     margin: 0;
@@ -5,6 +31,7 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 header{
     width: 100%;
@@ -21,6 +48,7 @@ nav{
     display: inline-block;
     justify-content: space-around;
     background-color: #f6250d;
+    font-family: 'Roboto', sans-serif;
 }
 nav img{
     float: left;
@@ -67,7 +95,7 @@ nav img{
     color: white;
     padding: 20px;
     text-decoration: none;
-    font-family: verdana;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     display: block;
 }
@@ -82,7 +110,7 @@ nav img{
 h1{
     margin-top: 40px;
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
 }
 section{
 /*    height: 500px;*/
@@ -92,10 +120,11 @@ section{
 }
 h2{
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Roboto', sans-serif;
 }
 #corps{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 5%;
 }
@@ -103,13 +132,15 @@ h2{
     height: 300px;
 }
 #corps img{
-    height: 80%;
+    max-height: 80%;
+    max-width: 80%;
 }
 .text{
     text-align: center;
     border: 2px solid #000000;
-    background: #dcdcdc;
-    font-family: Verdana;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -117,8 +148,11 @@ h2{
 footer{
     display: flex;
     flex-direction: row;
-    border-top: 2px solid #000000;
+    flex-wrap: wrap;
+    /*border-top: 2px solid #000000;*/
+    background-color: black;
     flex-basis: auto;
+    text-align: justify;
 }
 footer .text{
     flex: 1;
@@ -128,8 +162,9 @@ footer .text{
     display: flex;
     flex-direction: column;
     border: 2px solid #000000;
-    background: #dcdcdc;
-    font-family: Verdana;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     margin: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -138,11 +173,13 @@ footer .text{
     margin: 0;
     margin-bottom: 5px;
     text-align:center;
+    color: white;
 }
 #sitemap a{
     text-decoration: none;
-    font-family: verdana;
-    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
     margin: 8px;
 }
 
