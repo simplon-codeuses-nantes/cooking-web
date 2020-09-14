@@ -1,0 +1,45 @@
+.information-complet{
+	width: auto;
+	height: 20px;
+	display: block;
+	margin-right: auto;
+	margin-top: 0px;
+	text-align: center; 
+
+}
+.temps{
+	height: 40px;
+	width: 60px;
+	float:left;
+}
+.personnes{
+	height: 40px;
+	width: 80px;
+	float:left;
+}
+.difficulté{
+	height: 40px;
+	width: 60px;
+	float:left;
+
+}
+.budget{
+	height: 40px;
+	width: 60px;
+	float:left;
+
+}
+.préparation-cuisson{
+	text-align: center;
+}
+.ingrédients{
+	text-align: center;
+}
+.préparation{
+	text-align: center;
+}
+.image{
+	display: block;
+	height: auto;
+	width: 50px;
+}
