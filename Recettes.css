@@ -1,26 +1,24 @@
 body{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-font-family: 'Roboto', sans-serif;}
+
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
 	
 
-#grille{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-  	grid-column-gap: 50px;
-  	grid-row-gap: 50px;
-  	grid-auto-rows: minmax(12px, auto);
-  	margin-top: 20px;
-}
 
-.recette{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* RESPONSIVE */
+
+@import "responsive";
+
+/* FIN RESPONSIVE */
 
 header{
     width: 100%;
@@ -37,7 +35,7 @@ header{
 
 nav{
     width: 100%;
-    height: 120px;
+    height: auto;
     display: inline-block;
     justify-content: space-around;
     background-color: #ce0033;
@@ -52,29 +50,11 @@ nav img{
     margin-bottom : 10px;
 }
 
-h1{
-    /*margin-top: 40px;*/
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
-section{
-/*    height: 500px;*/
-    display: flex;
-    flex-direction: column;
-    margin: 50px;
-}
-
-h2{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
 
 /*menu déroulant*/
 .boutonmenuprincipal {
     color: white;
-    font-size: 25px;
+    font-size: 16px;
     border: none;
     background-color: #ce0033;
     cursor: pointer;
@@ -93,6 +73,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: right;
+    font-family: 'Roboto', sans-serif;
     max-width: 500px;
     min-width: 200px;
     background-color: #ce0033;
@@ -127,6 +108,9 @@ h2{
 
 /*fin menu déroulant*/
 
+h1{
+    text-align: center;
+}
 
 .photo_recette{
 	height: 150px;
@@ -137,6 +121,21 @@ h2{
 	border-color: #6c757d;}
 
 
+#grille{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-auto-rows: minmax(12px, auto);
+    margin-top: 20px;
+}
+
+.recette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* FOOTER*/
 
@@ -147,6 +146,7 @@ footer{
     flex-basis: auto;
     text-align: justify;
     background-color: black;
+    justify-content: space-between;
     /*border-top: 2px solid #000000;*/
 }
 
@@ -155,12 +155,15 @@ footer .textfooter{
 }
 
 .textfooter{
+    min-height: 150px;
+    min-width: 300px;
+    max-width: 400px; 
     text-align: center;
     background: black;
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin: 10px;
-    padding: 10px;
+   /* margin: 10px;
+    padding: 10px;*/
 }
 
 .textfooter a{
@@ -171,37 +174,15 @@ footer .textfooter{
 .textfooter a:hover{
     color: orange;
 }
+/*fin footer*/
 
-#sitemap{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    background: black;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin: 10px;
-    padding: 10px;
-    /*border: 2px solid #000000;
-    border-radius: 20px;*/
+@-webkit-keyframes smooth {
+from {
+    -webkit-transform: scale(1.0);
+    box-shadow: 0 0 11px rgba(33,33,33,.9); 
 }
+to {
+    -webkit-transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.9); 
+} keyframes /*animation photo*/
 
-#sitemap h3{
-    margin: 0;
-    margin-bottom: 5px;
-    text-align:center;
-    color: white;
-}
-
-#sitemap a{
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    margin: 8px;
-}
-
-#sitemap a:hover{
-    color: orange;
-}
-
-/* FIN FOOTER */
