@@ -1,14 +1,188 @@
 body{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;}
+
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
 	
 
-#grille{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-  	grid-column-gap: 100px;
-  	grid-row-gap: 70px;
-  	grid-auto-rows: minmax(12px, auto);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* RESPONSIVE */
+
+@import "responsive";
+
+/* FIN RESPONSIVE */
+
+header{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /*border-bottom: 2px solid #000000;*/
+    background-color: #ce0033;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
+nav{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    justify-content: space-around;
+    background-color: #ce0033;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav img{
+    float: left;
+    max-width: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom : 10px;
+}
+
+
+/*menu déroulant*/
+.boutonmenuprincipal {
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #ce0033;
+    cursor: pointer;
+    /*margin: 10px;
+    border-radius: 50px;*/
+}
+
+.boutonmenuprincipal:hover {
+    color: orange;
+}
+
+.dropdown {
+    margin-right: 20px;
+    float: right;
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-family: 'Roboto', sans-serif;
+    max-width: 500px;
+    min-width: 200px;
+    background-color: #ce0033;
+    border: 2px solid white;
+    /*border-radius: 50px;
+    margin-left: 33%;*/
+}
+
+.dropdown-child {
+    display: none;
+    background-color: #ce0033;
+    min-width: 50px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+    /*border-radius: 50px;*/
+}
+
+.dropdown a:hover{
+    color: orange;
+}
+
+/*fin menu déroulant*/
+
+h1{
+    text-align: center;
+}
+
+.photo_recette{
+	height: 150px;
+	max-width: 200px;
+	border: solid;
+	border-radius: 10%;
+	border-width: 3px;
+	border-color: #6c757d;}
+
+
+#grille{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    grid-auto-rows: minmax(12px, auto);
+    margin-top: 20px;
+}
+
+.recette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    text-align: justify;
+    background-color: black;
+    justify-content: space-between;
+    /*border-top: 2px solid #000000;*/
+}
+
+footer .textfooter{
+    flex: 1;
+}
+
+.textfooter{
+    min-height: 150px;
+    min-width: 300px;
+    max-width: 400px; 
+    text-align: center;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+   /* margin: 10px;
+    padding: 10px;*/
+}
+
+.textfooter a{
+    text-decoration: none;
+    color: white;
+}
+
+.textfooter a:hover{
+    color: orange;
+}
+/*fin footer*/
+
+@-webkit-keyframes smooth {
+from {
+    -webkit-transform: scale(1.0);
+    box-shadow: 0 0 11px rgba(33,33,33,.9); 
+}
+to {
+    -webkit-transform: scale(1.1);
+    box-shadow: 0 0 11px rgba(33,33,33,.9); 
+} keyframes /*animation photo*/
+
