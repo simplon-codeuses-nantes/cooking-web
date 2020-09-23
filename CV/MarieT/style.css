@@ -1,4 +1,7 @@
 html {align-item:center;}
+
+
+
 body{
 	
 	font-family: calibri;
@@ -44,19 +47,7 @@ a:active
 {
 	max-width: 800px;
 }
-#entete
-{
-	
 
-	background-color:#CCCCCC;
-	padding: 0 10px 0 0;
-	
-	height:200px;
-	display:flex;
-	flex-direction:row;
-	justify-content: space-between;
-	align-items: center;
-}
 #entete_gauche
 {
 	align-self: stretch;
@@ -76,47 +67,157 @@ a:active
 	display:flex;
 	flex-direction:row;
 	flex-wrap: wrap;
+	justify-content: center;
 	align-items: flex-start;
 	
 }
-#gauche
+
+@media screen and (max-width :800px) /*affichage pour écran de smartphone*/
 {
-	padding : 0px 20px 10px 10px;
-	text-align: right;
-	width:200px;
+	#entete
+	{
+		background-color:#CCCCCC;
+		padding: 0 10px 0 0;
+		height:180px;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	img
+	{
+		height :180px;
+	}
+
+	h1
+	{
+		
+		margin:2px;
+		font-family: 'Carrois Gothic', sans-serif;
+		font-weight:bold;
+		font-size:160%;
+		
+	}
+
+	h2
+	{
+		
+		margin:2px;
+		font-family: 'Carrois Gothic', sans-serif;
+		font-weight:bold;
+		font-size:140%;
+		
+	}
+
+	h4
+	{
+		
+		margin:2px;
+		font-family: 'Carrois Gothic', sans-serif;
+		font-size:100%;
+		font-weight: lighter;
+	}
+	
+	.barre_separation
+	{
+		display: none;
+	}
+
+	#gauche
+	{
+		padding : 0px 2px 10px 2px;
+		text-align: center;
+		width:200px;
+	}
+
+	#droite
+	{
+		padding : 0px 2px 10px 2px;
+		text-align: left;
+		max-width:500px;
+	}
+
+
+
+
+
 }
-#droite
+
+@media screen and (min-width :801px)
 {
-	padding : 0px 10px 10px 20px;
-	border-style: solid;
-	border-width: 0 0 0 5px;
-	
-	border-color: #CCCCCC;
-	text-align: left;
-	max-width:500px;
+	#entete
+	{
+		background-color:#CCCCCC;
+		padding: 0 10px 0 0;
+		height:200px;
+		display:flex;
+		flex-direction:row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	img
+	{
+		height :200px;
+	}
+
+	h1
+	{
+		
+		margin:10px;
+		font-family: 'Carrois Gothic', sans-serif;
+		font-weight:bold;
+		font-size:200%;
+		
+	}
+
+	h2
+	{
+		
+		margin:10px;
+		font-family: 'Carrois Gothic', sans-serif;
+		font-weight:bold;
+		font-size:180%;
+		
+	}
+
+	h4
+	{
+		
+		margin:10px;
+		font-family: 'Carrois Gothic', sans-serif;
+		font-size:120%;
+		font-weight: lighter;
+	}
+
+	.retour_ligne
+	{
+		display: none;
+	}
+
+	#gauche
+	{
+		padding : 0px 20px 10px 10px;
+		text-align: right;
+		width:200px;
+	}
+
+	#droite
+	{
+		padding : 0px 10px 10px 20px;
+		border-style: solid;
+		border-width: 0 0 0 5px;
+		
+		border-color: #CCCCCC;
+		text-align: left;
+		max-width:500px;
+	}
 }
-img
-{
-	height :200px;
-}
-h1
-{
-	
-	margin:10px;
-	font-family: 'Carrois Gothic', sans-serif;
-	font-weight:bold;
-	font-size:200%;
-	
-}
-h2
-{
-	
-	margin:10px;
-	font-family: 'Carrois Gothic', sans-serif;
-	font-weight:bold;
-	font-size:180%;
-	
-}
+
+
+
+
 h3
 {
 	
@@ -126,14 +227,7 @@ h3
 	font-weight: bolder;
 	
 }
-h4
-{
-	
-	margin:10px;
-	font-family: 'Carrois Gothic', sans-serif;
-	font-size:120%;
-	font-weight: lighter;
-}
+
 h5
 {
 	
