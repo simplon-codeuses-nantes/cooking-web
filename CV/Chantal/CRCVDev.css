@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Patrick+Hand&display=swap');
+
+@import "responsive.css";
+
+{margin:0;
+padding:0;
+}
+
+@media (min-width: 320px) {
+  #bottom, #top {
+    display: none;}
+} 
+
+@media print{
+html{
+width: 210mm;
+height: 297mm;
+}
+}
+
+
+body{
+	width: 100%;
+	margin: 0 auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	background: white;
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+
+a:link{
+  color:#17365d;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #17365d;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #17365d;
+  text-decoration: none;
+}
+
+a:active{
+  color: #17365d;
+  text-decoration: none;
+}
+
+header{
+	width: 100%;
+	top: 0;
+	background-color:#D12E50;
+	display:flex;
+	position: relative;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	height:7%;
+}
+
+#entete{
+	background-color:#D12E50;
+	display:flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	text-align: right;
+	padding: 0 auto;
+}
+
+
+#photoCV > img{
+	height:18vw;
+	padding: 2vh 1vh 0vh 1vh;
+	border-radius: 1vh 15vh / 1vh 15vh;
+}
+
+
+h1{
+	font-family: 'Architects Daughter', sans-serif;
+	color: white;
+	font-weight:bold;
+	font-size:3vw;
+	padding: 1em 0em 0em 10em;
+}
+
+
+h2{
+	font-family: 'Architects Daughter', sans-serif;
+	color: white;
+	font-weight:bold;
+	font-size:2vw;
+}
+
+h3{
+	font-family: 'Architects Daughter', sans-serif;
+	color: white;
+	font-size:2vw;
+	font-weight: lighter;
+}
+
+h4{
+	text-align: center;
+	font-family: 'Architects Daughter', sans-serif;
+	color: #D12E50 ;
+	font-size:2vw;
+	font-weight: bold;
+	margin : 0.5em 0 0.5em 0;
+}
+
+h5{
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5vw;
+	font-weight: bold;
+	margin: 0.5em 0 0.5em 0em;
+}
+
+h6{
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	color: #D12E50 ;
+	font-size: 1.5vw;
+	font-weight: normal;
+	margin: 0.5em 0 0.5em 0em;
+}
+
+.CV{
+	width:100%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: center;
+}
+
+.contacts{
+	width : 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	align-content: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1vw;
+	/*line-height: 0.1em;*/
+	background: #BDBDB2;
+}
+
+.gauche{
+	width:25%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	break-after: column;
+}
+
+#atouts{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3vw;
+	line-height: 0.2em;
+}
+
+#outils{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+	font-size: 1.3vw;
+	line-height: 1.7em;
+}
+
+#niveau{
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	width: 20%;
+}
+
+progress{
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width:7vw;
+    height: 2vh;
+    padding: 0 0 0 0;
+    background: #333; 
+    background: -webkit-linear-gradient(#2d2d2d,#444);
+    background:    -moz-linear-gradient(#2d2d2d,#444);
+    background:      -o-linear-gradient(#2d2d2d,#444);
+    background:         linear-gradient(#2d2d2d,#444);
+    border: 0.2em solid rgba(209,46,80,2);
+    border-radius: 0.2em;
+    box-shadow: 0 0.1em 0 rgba(209,46,80,2);   
+}
+
+#langues{
+	width : 100%;
+	font-size: 1.3vw;
+	line-height: 1.5em;
+}
+
+#compétences{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width : 100%;
+	line-height: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3vw;
+	padding: 0.5em 0em 0.5em 0;
+	margin-left: 0.5em;
+}
+
+span.progress{
+	color: #D12E50;
+}
+
+span.interest{
+	font-weight: bolder;
+}
+
+
+
+#plus{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3vw;
+	line-height: 0em;
+}
+
+#interet > p{
+	display : flex;
+	flex-direction: column;
+	margin: 0.2em 0 0.2em 0;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+#plus > p{
+	text-align: center;
+}
+
+#interet{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size:1.3vw;
+}
+
+#interet >h4{
+	font-size: 2vw;
+	line-height: 1.5em;
+	margin: 0.2em 0 0.2em 0;
+}
+
+.centre{
+	display:flex;
+	border-right: 0.5vh solid #D12E50;
+	margin-top: 0.5vh;
+	margin-bottom: 1vh;
+}
+
+.droite{
+	width:65%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3vw;
+}
+
+#formation{
+	display: flex;
+	flex-wrap: wrap;
+	width : 100%;
+	line-height: 1em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3vw;
+	margin-left: 0.5em;
+}
+
+#LibForm{
+	width:70%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5vw;
+	line-height: 1em;
+	margin: 0.5em 0 0.2em 0;
+}
+
+#date{
+	width: 25%;
+	display:flex;
+	flex-direction: column;
+	text-align: right;
+	line-height: 1em;
+}
+
+#formation > p{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	line-height: 1em;
+	text-align: left;
+	font-size:1.3vw;
+	margin: 0.2em 0 0.2em 0;
+}
+
+#formation > h4{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	line-height: 0.5em;
+	text-align: left;
+	font-size: 2vw;
+	margin-top: 0.7em;
+}
+
+#formation > h5{
+	display: flex;
+	text-align: left;
+	margin: 0 0 0 0;
+	font-size: 1.3vw;
+}
+ul, li{
+	font-size: 1.3vw;
+}
+
+
+#expe > h4{
+	line-height: 0.5em;
+	text-align: left;
+	margin-left: 0;
+	margin-top: 0.7em;
+}
+
+#expe > p{
+	font-weight: normal;
+	line-height: 0.5em;
+	font-size: 1.3vw;
+	margin: 0.5em 0 0.5em 0;
+}
+
+#expe > h5{
+	display: flex;
+	margin-left: 0;
+	line-height: 1.5em;
+	margin-bottom: 0;
+	margin-top: 0.5em;
+	font-family: 'Architects Daughter', sans-serif;
+}
+ul, li{
+	line-height: 1.5em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
