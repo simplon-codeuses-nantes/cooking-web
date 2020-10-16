@@ -1,46 +1,56 @@
-/*aside*/
 aside
 {
 	
-	text-align: justify;
+	text-align: center;
 	background-color: #ee704b;
+	height:100%;
+}
+section
+{  
+	margin: 0; display: block; 
 }
 .imagep
 {
-	width: 180px;
+	width: auto;
 	height: 180px;
 	border-radius:100px;
-	margin-top: 30px;
-	margin-left: 90px;
+	padding-top: 10px;
+	text-align: center;
 }
+
 #nom
 {
-	margin-left: 110px;
+
 	font-size: 24px;
 	color: white;
 }
 #presentation
 {
 	margin-top: 8px;
-	margin-bottom: 4px;
+	margin-bottom: 10px;
 	margin-left: 5px;
 	margin-right: 3px;
 	text-align: justify;
 	padding-top: 15px;
-	padding-bottom: 8px;
+	padding-bottom: 20px;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 13px;
+	font-size: 14px;
 }
 #profil
 {
 	background-color: white;
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	
 }
 .titregauheh2
 {
 	background-color: white;
 	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 .elementcolorblanc
 {
@@ -54,25 +64,24 @@ aside
 	color: white;
 	padding-left: 5px;
 	padding-right: 3px;
-	/*margin-top: 0;*/
-
+	margin: 0;
+	font-size: 12px;
 }
-
 
 h6
 {
-	font-size: 14px;
+	font-size: 12px;
 	font-style: normal;
 	margin-left: 4px;
 	padding-left: 2px;
 	padding-right: 2px;
-	/*margin-top: -10px*/
+	margin-top: 0;
 	
 }
 
 .paragraphegauche
 {
-	margin-top: -20px;
+	margin-top: 10px;
 	padding-left: 3px;
 	padding-right: 5px;
 	font-size: 13px;
@@ -84,8 +93,6 @@ h6
 	/*margin: 0;*/
 	margin-top: -100px; 
 	margin-left: 3px;
-
-
 }
 
 #bac, #bep
@@ -94,11 +101,14 @@ h6
 	padding-left: 3px;
 
 }
-#competences, #competences1
+.competences
 {
-	display:inline-block;
 	margin-top: 15px;
+	text-align: center;
+	display: inline-block;
+	height: 20%;
 }
+
 img
 {
 	width: 22px;
@@ -109,17 +119,25 @@ img
 
 .block
 {
-	display: flex;
-	margin: 2px;
-	padding-left: 15px;
-	padding-right: 10px;
+	display:inline-block;
+	margin: 0;
+	padding-left: 2px;
+	padding-right: 6px;
 	padding-bottom: 6px;
 	margin-right: 0;
+}
+#h4
+{
+	margin-left: 30px;
+}
+#imgpack
+{
+	margin-left: 30px;ssss
 }
 .atouts
 {
 	display: inline-block;
-	margin-top: -350px;
+	padding-top: 30px;
 	margin-left: 5px;
 	margin-right: 3px;
 }
@@ -140,10 +158,8 @@ header
 {
 	text-align: center;
 	background-color: black;
-	float: left;
-	/*margin-left: 3px;*/
 	padding-bottom: 14px;
-	width: 100.5%; 
+	width:100%; 
 	height: 90px;
 }
 body
@@ -152,17 +168,19 @@ body
 }
 #partiedroite
 {
-	width: 90%;
-	height: 200%;
+	width: 100%;
+	height: 50%;
 }
 #partiegauche
 {
 	width: 35%;
+	
 }
-#partiecentre
+footer
 {
-	height: 150%;
-	WID
+	margin-top: 150px;
+	margin-bottom: 0;
+	height: 20%;
 }
 #titre
 {
@@ -177,7 +195,7 @@ body
 {
 	display: inline-flex;
 	color: white;
-	margin-left: 4px;
+	margin-left: 2px;
 	margin-right: 2px;
 }
 .elementcolor
@@ -194,31 +212,29 @@ header, .exp
 .exp
 {
 	margin-left: 14px;
+	margin-bottom: 25px;
 	background: black;
 	color: white;
-	margin-top: 30px;
-	width: 70%;
-	height: 1%;
-	
+	margin-top: 25px;
+	width: 90%;	
 	text-align: center;
-
 }
+
 #imgexp
 {
 	float: left;
-	margin-top: 10px;
-	height: 3%;
-	width: 2.8%;
+	margin-top: 5px;
+	height: 2%;
+	width: 2%;
 	margin-left: 14px;
+	padding-right: 20px;
 }
 #imgexp, .titreh3
 {
 	display: inline-flex;
+	
 }
-.titredisplay
-{
-	margin-top:30px;
-}
+
 .elementcolor1
 {
 	width: 2px;
@@ -240,8 +256,12 @@ header, .exp
 {
 	display: inline-block;
 	margin-top: 0;
-	margin-left: 2px;
-	
+	margin-left: 2px;	
+}
+
+.titreh5
+{
+	margin-right: 0;
 }
 .paragraphe
 {
@@ -250,22 +270,25 @@ header, .exp
 }
 #petittitre
 {
-	margin-top: 35px;
+	margin-top: 90px;
 	background:  #ee704b;
 	width: 60%;
 	height: 25px;
-	padding: 0px 10px 1px 30px;
+	padding: 0px 0px 1px 30px;
 	font-size: 20px;
+	/*margin-bottom: 5px;*/
 }
 
 .positionpuce
 {
 	display: inline-flex;
-	/*margin-left: 270px;*/
+	
 }
 #puce, #puce1
 {
 	display: inline-block;
+	width: 45%;
+	margin-bottom: 5px;
 
 }
 #autreexp
@@ -273,7 +296,7 @@ header, .exp
 	margin-left: 14px;
 	background: black;
 	color: white;
-	margin-top: 30px;
+	margin-top: 20px;
 	width: 70%;
 	height: 45px;
 	text-align: center;
@@ -284,16 +307,15 @@ header, .exp
 #imgautreexp
 {
 	float: left;
-	/*margin-left: 270px;*/
-/*	margin-top: 10px;*/
-	/*padding-right: 30px;*/
-	height: 3%;
+	padding-right: 20px;
+	margin-left: 15px;
+	height: 1%;
 	width: 2.8%;
 }
 #imgautreexp, .titreh3
 {
 	display: inline-flex;
-
+	/*margin-top: 2px;*/
 }
 #elementcolor1
 {
@@ -307,7 +329,7 @@ header, .exp
 }
 #titrefooter, #imageprogress
 {
-	margin-top: 20px;
+	margin-top: 60px;
 	float: left;
 	display: inline-flex;
 	margin-left: 260px;
@@ -317,4 +339,95 @@ header, .exp
 	width: 25%;
 	height: 15%;
 	margin-right: 15px;
+}
+
+/*mediaquery*/
+@media screen and (max-width: 1024px)
+{
+	aside
+	{
+		width: auto;
+		height: 100%;
+	}
+	#presentation
+	{
+		font-size: 10px;
+		text-align: justify;
+	}
+	.atouts, .elementcolorblanc
+	{
+		font-size: 10px;
+	}
+	#nom
+	{
+		font-size: 16px;
+		text-align:left;
+		margin-left:40px;
+	}
+
+	#nom, .imagep
+	{
+		display: block;
+		text-align: center;
+	}
+	.imagep
+	{
+		margin-left: 45px;
+	}
+
+
+	#partiedroite
+	{
+		width: 80%;
+	}
+	header
+	{
+		display: inline-block;
+		text-align: center;
+		padding-left: 12px;
+		margin-top:4px;
+	}
+	.info
+	{
+		font-size: 12px;
+		font-family:serif;
+	}
+	#imgexp
+	{
+		width: 2.7%;
+		height: 1%;
+	}
+	.exp
+	{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	#imgautreexp
+	{
+		width: 3.4%;
+		height: 2%;
+	}
+
+	
+	.titredisplay
+	{
+		font-size: 14px;
+		font-family: serif;
+		/*margin-left: 10px;*/
+	}
+	
+	#soustitre
+	{
+		display: flex;
+	}
+	.paragraphe
+	{
+		font-size: 10px;
+		width: 70%;
+	}
+	#petittitre
+	{
+		margin-top: 60px;
+	}
+
 }
