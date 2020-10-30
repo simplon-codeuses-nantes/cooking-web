@@ -1,4 +1,11 @@
-.page{
+
+  html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  
+ 
   font-family: Roboto,Arial, Helvetica, sans-serif;
   width: 68%;
   display: flex;
@@ -7,21 +14,23 @@
   margin-right: 16%;
   margin-left: 16%;
 }
-
+  
 .colone2{
-  margin-left: 45px;
+  margin-left:30px;
+  font-size: 110%;
   
 }
 .colone1{
   text-align: justify;
   background-color: #CD5C5C;
+  width: 85%;
 }
 .contact{
   font-weight: bold;
 
 }
 h1{
-  font-size: 250%;
+  font-size: 270%;
   color:white;
 }
 h3{
@@ -29,7 +38,7 @@ h3{
   width: 90%;
   background-color: #CD5C5C;
   color: white;
-  font-size: 150%;
+  font-size: 130%;
   padding-left: 10px;
   padding-top: 15px;
 }
@@ -46,19 +55,304 @@ h4{
   color: purple;
   margin:0;
     padding: 0;
+    font-size: 100%;
   
 }
 h5{
 margin-top: -10px;
 color: purple;
+font-size: 100%;
+padding-top:  0;
 }
+ 
+
 .col1{
-  margin-left: 30px;  
-}
+  margin-left: 30px;}
+
 p{
-   font-size: 110%; 
+   font-size: 120%; 
   }
 
  h4 + p{
 margin-top: 0;
+}
+h6{
+  margin: 0;
+  padding-top: 15px;
+  font-size: 120%;}
+img {
+    width: 100%;
+  }
+.work p{
+  margin-bottom: 10px;
+}
+.stage p{
+  font-weight: bold;
+}
+
+@media screen  and (max-width: 450px) {
+
+  .colone1{
+
+  width: 75%;
+  height: 750px;
+  margin-left: -50px;
+
+}
+.colone2{
+  margin-left: 8px;
+  font-size: 60px; 
+  height: 750px; 
+  width: 80%;
+
+}
+
+.contact{
+  font-weight: bold;
+
+}
+h1{
+  font-size: 21px;
+
+}
+
+.col1{
+   
+  font-size: 20px;
+
+}
+ h2{
+  height: 15px;
+  width: 100px;
+  margin-top: 15px;
+  padding-top: 0px;
+  padding-left: 2px; 
+  font-size: 12px;
+}
+h3{
+  height: 17px;
+  width: 210px;
+  font-size: 13px;
+  padding-left: 10px;
+  padding-top: 3px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+p{
+   font-size:9px; 
+  }
+  
+h4{
+    font-size: 9px;
+  
+}
+h5{
+margin-top: -10px;
+font-size: 9px;
+padding-top:  0;
+}
+h4 + p{
+margin-top: 0;
+}
+
+h6{
+  margin: 0;
+  padding-top: 5px;
+  font-size: 9px;}
+ img{
+  width: 100%;
+ }
+  .formation p{
+    font-size:9px;
+  }
+.work p{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 9px;
+}
+.stage p{
+  font-weight: bold;
+  
+}
+
+.colone1 p{
+  font-size: 11px;
+}
+.contact p{
+  font-size: 11px;
+}
+}
+@media screen and (min-width: 850px) and (max-width: 1110px){
+
+.colone1{
+
+  width: 75%;
+  height: 1500px;
+  margin-left: -120px;
+
+}
+.colone2{
+  margin-left: 20px;
+  font-size: 100px; 
+  height: 1500px; 
+  width: 80%;
+
+}
+
+.contact{
+  font-weight: bold;
+
+}
+h1{
+  font-size: 45px;
+
+}
+
+.col1{
+   
+  font-size: 20px;
+
+}
+ h2{
+ height: 40px;
+  width: 260px;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-left: 1px; 
+  font-size: 30px;
+}
+h3{
+  height: 40px;
+  width: 460px;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+p{
+   font-size: 20px; 
+  }
+  
+h4{
+    font-size: 20px;
+  
+}
+h5{
+margin-top: -10px;
+font-size: 20px;
+padding-top:  0;
+}
+h4 + p{
+margin-top: 0;
+}
+
+h6{
+  margin: 0;
+  padding-top: 5px;
+  font-size: 20px;}
+ img{
+  width: 100%;
+ }
+  .formation p{
+    font-size:20px;
+  }
+.work p{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.stage p{
+  font-weight: bold;
+  
+}
+
+.colone1 p{
+  font-size: 20px;
+}
+.contact p{
+  font-size: 20px;
+}
+
+}
+@media screen and (min-width: 450px) and (max-width: 850px){
+ 
+.colone2{
+  margin-left: 10px;
+  font-size: 80px; 
+  height: 1500px; 
+  width: 80%;
+
+}
+
+.contact{
+  font-weight: bold;
+
+}
+h1{
+  font-size: 35px;
+
+}
+
+ h2{
+ height: 40px;
+  width: 260px;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-left: 1px; 
+  font-size: 25px;
+}
+h3{
+  height: 40px;
+  width: 460px;
+  font-size: 19px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+p{
+   font-size: 18px; 
+  }
+  
+h4{
+    font-size: 20px;
+  
+}
+h5{
+margin-top: -10px;
+font-size: 20px;
+padding-top:  0;
+}
+h4 + p{
+margin-top: 0;
+}
+
+h6{
+  margin: 0;
+  padding-top: 5px;
+  font-size: 20px;}
+ img{
+  width: 100%;
+ }
+  .formation p{
+    font-size:18px;
+  }
+.work p{
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.stage p{
+  font-weight: bold;
+  
+}
+
+.colone1 p{
+  font-size: 24px;
+}
+.contact p{
+  font-size: 22px;
+}
+
 }
